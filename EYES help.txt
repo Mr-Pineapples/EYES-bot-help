@@ -1,0 +1,62 @@
+/ = command or command name
+: = required
+<> = user variable input
+|| = other user input
+
+General
+
+/Hug
+ Send someone a hug
+ /hug :<user>:
+
+/collect
+ collects some snow from the ground around you
+
+/throw
+ throws something at the mentioned user
+ /throw :<user>: <amunition>
+
+/rps
+ play a game of Rock, Paper, Scissors
+ /rps	||	press emoji below to select the icon that you chose
+
+/help
+ Ask the bot for help
+ /help
+
+/invoice-create
+ create a custom invoice in discord
+ /invoice-create :<client>: :<currency>: :<item>: :<price>: :<item-2>: :<price-2>: :<item-3>: :<price-3>: :<full-price>: :<date-of-pay>: :<note>: :<channel>:
+
+/weather
+ gets the current weather forecast for a city of town
+ /weather :<city-or-town>: :<countrys-code>:
+
+/urban
+ search for definitions on urban dictionary
+ /urban :<word-to-define>:
+
+/invite
+ generates the invite link for the bot and posts it in the server
+
+Moderation
+
+/mute
+ mutes a user in the server
+ /mute :<user>: <reason>
+
+/unmute
+ unmutes a user in the server
+ /unmute :<user>:
+
+/warn
+ warns a user
+ /warn :<user>: :<reason>:
+
+/warnings
+ displays all the past warnings of a user
+ /warnings :<user>:
+
+/clearwarnings
+ clears all the warnings of a user
+ /clearwarnings :<user>:
