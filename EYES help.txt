@@ -2,8 +2,11 @@
 : = required
 <> = user variable input
 || = other user input
+// = requires admin permissions
 
-General
+
+----------General-----------
+
 
 /Hug
  Send someone a hug
@@ -38,8 +41,15 @@ General
 
 /invite
  generates the invite link for the bot and posts it in the server
+/invite
 
-Moderation
+/ping
+ gets the ping of the server and the bot
+ /ping
+
+
+-----------Moderation------------
+
 
 /mute
  mutes a user in the server
@@ -57,6 +67,85 @@ Moderation
  displays all the past warnings of a user
  /warnings :<user>:
 
-/clearwarnings
+//clearwarnings
  clears all the warnings of a user
  /clearwarnings :<user>:
+
+/softban
+ softbans a user from the server. removes all their messages from the server and kicks them
+
+//purge
+ deletes a number of messages in a channel
+ /purge :<number>:
+
+/removetimeout
+ remove a timeout from a user
+ /removetimeout :<user>:
+
+//white-list
+ adds a word to the servers whitelist
+ /white-list :<word>:
+
+//black-list
+ adds a word to the servers blacklist
+ /black-list :<word>:
+
+
+--------Economy---------
+
+/give
+ gives money to a user from your balance
+ /give :<amount>: :<user>:
+
+//add-money
+ an admin only command that adds currency to another users balance
+ /add-money :<amount>: :<user>:
+
+//remove-money
+ an admin only command that removes currency from another users balance
+ /remove-money :<amount>: :<user>:
+
+/check-balance
+ displays the currency balance of a user
+ /check-balance :<user>:
+
+/daily
+ claims your daily bonus
+ /daily
+
+/leaderboard
+ displays the server leaderboard
+ /leaderboard
+
+//econadmin add-item
+ adds a certain item to a users inventory
+ /econadmin add-item :<member>: :<item>:
+
+//econadmin remove-item
+ removes a certain item from a users inventory
+ /econadmin remove-item :<member>: :<item>:
+
+/giveitem
+ give ann item from your inventory to someone else
+ /giveitem :<member>: :<item>:
+
+/use
+ use an item from your inventory
+ /use :<item>:
+
+/buy
+ buy an item from your inventory yo someone else
+ /buy :<item>:
+
+/shop view
+ view the shop
+ /shop view <page>
+
+
+/shop item
+ view an item from the shop
+ /shop item :<item>:
+
+/inventory view
+ view your inventory
+ /inventory view <page>
