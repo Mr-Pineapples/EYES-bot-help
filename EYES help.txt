@@ -8,20 +8,13 @@
 ----------General-----------
 
 
-/Hug
- Send someone a hug
- /hug :<user>:
+/roll
+ roll a user
+ /roll :<Target>: <item>
 
-/collect
- collects some snow from the ground around you
-
-/throw
+/yeet
  throws something at the mentioned user
- /throw :<user>: <amunition>
-
-/rps
- play a game of Rock, Paper, Scissors
- /rps	||	press emoji below to select the icon that you chose
+ /yeet :<user>: || use the dropdown to select the amunition for your throw
 
 /help
  Ask the bot for help
@@ -33,19 +26,23 @@
 
 /weather
  gets the current weather forecast for a city of town
- /weather :<city-or-town>: :<countrys-code>:
-
-/urban
- search for definitions on urban dictionary
- /urban :<word-to-define>:
+ /weather :<city-or-town>: :<countries-code>:
 
 /invite
  generates the invite link for the bot and posts it in the server
-/invite
+ /invite
 
 /ping
  gets the ping of the server and the bot
  /ping
+
+/get_memes
+ Returns a list of templates from ImgFlip and shows the template ID and captions required
+ /get_memes
+
+/create_meme
+ Creates a meme from a supplied template ID and caption list
+ /create_meme
 
 
 -----------Moderation------------
@@ -77,10 +74,6 @@
 //purge
  deletes a number of messages in a channel
  /purge :<number>:
-
-/removetimeout
- remove a timeout from a user
- /removetimeout :<user>:
 
 //white-list
  adds a word to the servers whitelist
@@ -149,3 +142,5 @@
 /inventory view
  view your inventory
  /inventory view <page>
+
+/inventory item
